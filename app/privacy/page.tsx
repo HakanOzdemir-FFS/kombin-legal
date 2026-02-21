@@ -2,10 +2,10 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Gizlilik Politikası | Kombin Asistanı',
-    description: 'Kombin Asistanı mobil uygulamasının gizlilik politikası, veri toplama, saklama, kullanıcı hakları ve üçüncü taraf hizmet sağlayıcıları hakkında detaylı bilgi içerir.',
+    title: "Gizlilik Politikası | Kombin Asistanı",
+    description: "Kombin Asistanı mobil uygulamasının gizlilik politikası, veri toplama, saklama, kullanıcı hakları ve üçüncü taraf hizmetlerin kullanımını detaylı şekilde açıklar.",
     alternates: {
-        canonical: '/privacy',
+        canonical: "/privacy",
     },
 };
 

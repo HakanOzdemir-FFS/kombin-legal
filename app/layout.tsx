@@ -2,7 +2,7 @@ import type { Metadata, Viewport } from 'next';
 import './globals.css';
 
 export const metadata: Metadata = {
-  metadataBase: new URL('https://kombin-legal2.vercel.app'),
+  metadataBase: new URL("https://kombin-legal2.vercel.app"),
   title: 'Kombin Asistanı | Legal Docs',
   description: 'Kombin Asistanı mobil uygulamasına ait Gizlilik Politikası ve Kullanım Koşulları resmi yasal metinleri.',
 };

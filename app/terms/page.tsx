@@ -2,10 +2,10 @@ import Link from 'next/link';
 import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
-    title: 'Kullanım Koşulları | Kombin Asistanı',
-    description: 'Kombin Asistanı uygulaması Kullanım Koşulları (Terms of Service). Abonelik kuralları, Apple App Store IAP kuralları, cayma hakları.',
+    title: "Kullanım Koşulları | Kombin Asistanı",
+    description: "Kombin Asistanı mobil uygulamasının kullanım koşulları, abonelik, faturalandırma, iptal ve yasal sorumlulukları açıklar.",
     alternates: {
-        canonical: '/terms',
+        canonical: "/terms",
     },
 };
 
