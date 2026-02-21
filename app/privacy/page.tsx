@@ -3,7 +3,7 @@ import type { Metadata } from 'next';
 
 export const metadata: Metadata = {
     title: 'Gizlilik Politikası | Kombin Asistanı',
-    description: 'Kombin Asistanı uygulaması Gizlilik Politikası. Verilerinizin nasıl toplandığı, kullanıldığı, korunduğu ve KVKK/GDPR haklarınız.',
+    description: 'Kombin Asistanı mobil uygulamasının gizlilik politikası, veri toplama, saklama, kullanıcı hakları ve üçüncü taraf hizmet sağlayıcıları hakkında detaylı bilgi içerir.',
     alternates: {
         canonical: '/privacy',
     },
