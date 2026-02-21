@@ -92,7 +92,7 @@ export default function TermsOfService() {
             <p>
                 Kullanım koşullarımızla veya faturalandırma (teknik konularda, iade hariç) süreçleriyle ilgili destek almak, sorularınızı iletmek veya yasal bildirimlerde bulunmak için destek ekibimize ulaşabilirsiniz:
                 <br />
-                <a href="mailto:support@kombinasistani.com"><strong>support@kombinasistani.com</strong></a>
+                <a href="mailto:fayfoysix@gmail.com"><strong>fayfoysix@gmail.com</strong></a>
             </p>
         </>
     );

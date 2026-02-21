@@ -96,7 +96,7 @@ export default function PrivacyPolicy() {
             <p>
                 Gizlilik politikamız, verilerinizin yönetimi veya haklarınız ile ilgili her türlü teknik veya hukuki soru, talep veya şikayetiniz için destek ekibimize resmi e-posta adresimizden 7/24 ulaşabilirsiniz:
                 <br />
-                <a href="mailto:support@kombinasistani.com"><strong>support@kombinasistani.com</strong></a>
+                <a href="mailto:fayfoysix@gmail.com"><strong>fayfoysix@gmail.com</strong></a>
             </p>
         </>
     );

@@ -27,8 +27,8 @@ export default function Home() {
       <h2>İletişim</h2>
       <p>
         Herhangi bir soru, görüş veya veri silme talebiniz için destek ekibimizle iletişime geçebilirsiniz:<br />
-        <a href="mailto:support@kombinasistani.com">
-          support@kombinasistani.com
+        <a href="mailto:fayfoysix@gmail.com">
+          fayfoysix@gmail.com
         </a>
       </p>
     </>
