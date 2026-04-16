@@ -6,6 +6,7 @@ export default function Home() {
       <nav className="nav-header">
         <Link href="/privacy">Gizlilik Politikası</Link>
         <Link href="/terms">Kullanım Koşulları</Link>
+        <Link href="/delete-account">Hesap Sil</Link>
       </nav>
 
       <h1>Kombin Asistanı - Yasal Metinler</h1>
@@ -22,6 +23,7 @@ export default function Home() {
       <ul>
         <li><Link href="/privacy"><strong>Gizlilik Politikası (Privacy Policy)</strong></Link></li>
         <li><Link href="/terms"><strong>Kullanım Koşulları (Terms of Service)</strong></Link></li>
+        <li><Link href="/delete-account"><strong>Hesap Silme Talebi (Account Deletion)</strong></Link></li>
       </ul>
 
       <h2>İletişim</h2>
