@@ -18,7 +18,7 @@ export default function PrivacyPolicy() {
             </nav>
 
             <h1>Gizlilik Politikası</h1>
-            <p><strong>Son Güncelleme Tarihi:</strong> 21 Şubat 2026</p>
+            <p><strong>Son Güncelleme Tarihi:</strong> 24 Nisan 2026</p>
 
             <p>
                 Bu Gizlilik Politikası, <strong>Kombin Asistanı</strong> ("Uygulama", "biz", "bize" veya "bizim") mobil uygulamasını
@@ -43,6 +43,7 @@ export default function PrivacyPolicy() {
                 <li>Kullanıcı hesabınızı cihazlar arasında senkronize edebilmek ve güvenli bir şekilde yönetmek.</li>
                 <li>Premium üyelik işlemlerini, App Store içi satın almaları (In-App Purchases) ve doğrulama süreçlerini güvenli bir şekilde yönetmek.</li>
                 <li>Size teknik destek hizmeti sunmak (müşteri hizmetleri taleplerinize yanıt vermek).</li>
+                <li>Uygulama analitikleri ve reklam performansını ölçmek amacıyla kullanıcı davranışını izlemek (Facebook SDK aracılığıyla event tracking).</li>
             </ul>
 
             <h2>3. Veri Paylaşımı ve Üçüncü Taraflar</h2>
@@ -53,6 +54,14 @@ export default function PrivacyPolicy() {
             <ul>
                 <li><strong>Supabase:</strong> Kullanıcı kimlik doğrulama, güvenli veri tabanı barındırma ve yüklediğiniz kıyafet fotoğraflarının (AWS S3 benzeri bulut depolarında) uçtan uca güvenli bir şekilde saklanması amacıyla kullanılır. Supabase, katı veri güvenliği yasalarına tabidir.</li>
                 <li><strong>Apple ve RevenueCat:</strong> Uygulama içi aboneliklerin (Premium özellikler) güvenli takibi, ödeme doğrulaması ve makbuz (receipt) işlemleri için Apple sistemleri ve RevenueCat altyapısı kullanılır. Ödeme kartı bilgileriniz <em>asla</em> bize ulaşmaz, doğrudan Apple tarafından işlenir.</li>
+                <li><strong>Meta (Facebook SDK):</strong> Uygulama analitikleri ve reklam performans ölçümü amacıyla Meta'ya aşağıdaki veriler gönderilir:
+                    <ul>
+                        <li><strong>Gönderilen Veriler:</strong> Kullanıcı ID (Supabase UUID), event verisi (kayıt, kombin görüntüleme, wishlist ekleme, satın alma), IDFA (sadece ATT izni verilirse), cihaz modeli, iOS versiyonu, app versiyonu, IP adresi ve timestamp. Email adresiniz, adınız, şifreleriniz, kombin fotoğraflarınız ve ödeme bilgileriniz Meta'ya gönderilmez.</li>
+                        <li><strong>Amaç:</strong> Kullanıcı davranışını analiz etmek, Facebook reklamlarının dönüşüm (conversion) performansını izlemek ve reklam hedeflemesini optimize etmek.</li>
+                        <li><strong>Kontrol:</strong> ATT (App Tracking Transparency) permission'ı reddederseniz, IDFA paylaşılmaz. Uygulama ayarlarından hesabınızı silerseniz Meta'daki veriniz de temizlenir.</li>
+                        <li><strong>Meta Privacy Policy:</strong> Meta'nın veri işleme pratikleri hakkında daha fazla bilgi için <a href="https://www.facebook.com/privacy/explanation" target="_blank" rel="noopener noreferrer">Facebook Privacy Policy</a> ve <a href="https://www.facebook.com/policies_center/" target="_blank" rel="noopener noreferrer">Data Policy</a>'ni inceleyebilirsiniz.</li>
+                    </ul>
+                </li>
                 <li><strong>Yasal Zorunluluklar:</strong> Sadece ve sadece Türkiye Cumhuriyeti kanunlarının veya geçerli uluslararası hukuk kurallarının (örn. mahkeme kararları) açıkça gerektirdiği acil ve zorunlu hallerde yetkili adli veya idari makamlarla veri paylaşılabilir.</li>
             </ul>
 
