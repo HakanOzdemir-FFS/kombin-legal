@@ -15,6 +15,7 @@ export default function PrivacyPolicy() {
             <nav className="nav-header">
                 <Link href="/">← Ana Sayfa</Link>
                 <Link href="/terms">Kullanım Koşulları</Link>
+                <Link href="/en/privacy" className="lang-switch">🇬🇧 English</Link>
             </nav>
 
             <h1>Gizlilik Politikası</h1>

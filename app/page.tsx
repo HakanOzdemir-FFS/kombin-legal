@@ -7,6 +7,7 @@ export default function Home() {
         <Link href="/privacy">Gizlilik Politikası</Link>
         <Link href="/terms">Kullanım Koşulları</Link>
         <Link href="/delete-account">Hesap Sil</Link>
+        <Link href="/en" className="lang-switch">🇬🇧 English</Link>
       </nav>
 
       <h1>Kombin Asistanı - Yasal Metinler</h1>

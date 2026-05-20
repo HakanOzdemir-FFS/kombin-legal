@@ -15,6 +15,7 @@ export default function TermsOfService() {
             <nav className="nav-header">
                 <Link href="/">← Ana Sayfa</Link>
                 <Link href="/privacy">Gizlilik Politikası</Link>
+                <Link href="/en/terms" className="lang-switch">🇬🇧 English</Link>
             </nav>
 
             <h1>Kullanım Koşulları</h1>

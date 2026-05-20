@@ -15,6 +15,7 @@ export default function DeleteAccount() {
             <nav className="nav-header">
                 <Link href="/">← Ana Sayfa</Link>
                 <Link href="/privacy">Gizlilik Politikası</Link>
+                <Link href="/en/delete-account" className="lang-switch">🇬🇧 English</Link>
             </nav>
 
             <h1>Hesap Silme Talebi</h1>
